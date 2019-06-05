@@ -20,60 +20,43 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var _a;
 const jwt = require("jsonwebtoken");
-const mongoose_1 = require("mongoose");
-const users_service_1 = require("../users/users.service");
 const common_1 = require("@nestjs/common");
-const mongoose_2 = require("@nestjs/mongoose");
+const users_service_1 = require("../users/users.service");
 let AuthService = class AuthService {
-    constructor(usersService, userModel) {
-        this.usersService = usersService;
-        this.userModel = userModel;
+    constructor(userService) {
+        this.userService = userService;
     }
-    register(user) {
+    createToken(credentials) {
         return __awaiter(this, void 0, void 0, function* () {
-            let status = { success: true, message: 'user register' };
-            yield this.userModel.register(new this.userModel({
-                username: user.email,
-                firstName: user.firstName,
-                lastName: user.lastName
-            }), user.password, (err) => {
-                if (err) {
-                    status = { success: false, message: err };
-                }
+            const user = yield this.userService.login(credentials);
+            const expiresIn = 60 * 60;
+            const accessToken = jwt.sign({ id: user.id }, process.env.SECRET_KEY, {
+                expiresIn,
             });
-            return status;
+            return {
+                expiresIn,
+                accessToken,
+            };
         });
     }
-    createToken(user) {
-        console.log('get the expiration');
-        const expiresIn = 3600;
-        console.log('sign the token');
-        console.log(user);
-        const accessToken = jwt.sign({
-            id: user.id,
-            email: user.username,
-            firstname: user.firstName,
-            lastname: user.lastName
-        }, 'ILovePokemon', { expiresIn });
-        console.log('return the token');
-        console.log(accessToken);
-        return {
-            expiresIn,
-            accessToken,
-        };
+    verifyToken(token) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise(resolve => {
+                jwt.verify(token, process.env.SECRET_KEY, decoded => resolve(decoded));
+            });
+        });
     }
     validateUser(payload) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.usersService.findById(payload.id);
+            return yield this.userService.findById(payload.id);
         });
     }
 };
 AuthService = __decorate([
     common_1.Injectable(),
-    __param(1, mongoose_2.InjectModel('User')),
-    __metadata("design:paramtypes", [users_service_1.UsersService, typeof (_a = typeof mongoose_1.Model !== "undefined" && mongoose_1.Model) === "function" ? _a : Object])
+    __param(0, common_1.Inject(common_1.forwardRef(() => users_service_1.UsersService))),
+    __metadata("design:paramtypes", [users_service_1.UsersService])
 ], AuthService);
 exports.AuthService = AuthService;
 //# sourceMappingURL=auth.service.js.map

@@ -23,6 +23,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
+const passport_1 = require("@nestjs/passport");
 let UsersController = class UsersController {
     constructor(userSrv) {
         this.userSrv = userSrv;
@@ -46,6 +47,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "create", null);
 __decorate([
+    common_1.UseGuards(passport_1.AuthGuard()),
     common_1.Get('getAll'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),

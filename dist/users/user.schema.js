@@ -1,39 +1,31 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose = require("mongoose");
+const passportLocalMongoose = require("passport-local-mongoose");
 const bcrypt = require("bcrypt");
 exports.UserSchema = new mongoose.Schema({
-    email: {
-        type: String,
-        uniquq: true,
-        requierd: true
-    },
-    password: {
-        type: String,
-        required: true
-    }
+    firstName: String,
+    lastName: String,
+    email: String,
+    password: String,
 });
+exports.UserSchema.plugin(passportLocalMongoose);
 exports.UserSchema.pre('save', function (next) {
-    let user = this;
-    if (!user.isModified('password'))
+    const user = this;
+    if (!user.isModified('password')) {
         return next();
+    }
     bcrypt.genSalt(10, (err, salt) => {
-        if (err)
+        if (err) {
             return next(err);
-        bcrypt.hash(user.password, salt, (error, hash) => {
-            if (error)
+        }
+        bcrypt.hash(user['password'], salt, (error, hash) => {
+            if (error) {
                 return next(error);
-            user.password = hash;
+            }
+            user['password'] = hash;
             next();
         });
     });
 });
-exports.UserSchema.methods.checkPassword = function (attempt, callback) {
-    let user = this;
-    bcrypt.compare(attempt, user.password, (err, isMatch) => {
-        if (err)
-            return callback(err);
-        callback(null, isMatch);
-    });
-};
 //# sourceMappingURL=user.schema.js.map

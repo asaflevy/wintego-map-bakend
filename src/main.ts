@@ -2,7 +2,7 @@ import 'dotenv/config';
 
 import {NestFactory} from '@nestjs/core';
 import {AppModule} from './app.module';
-import {Logger} from "@nestjs/common";
+import {Logger} from '@nestjs/common';
 
 const port = process.env.PORT || 4000;
 

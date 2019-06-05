@@ -20,23 +20,33 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var _a;
 const mongoose_1 = require("mongoose");
 const common_1 = require("@nestjs/common");
 const mongoose_2 = require("@nestjs/mongoose");
+const bcrypt = require("bcrypt");
 let UsersService = class UsersService {
     constructor(userModel) {
         this.userModel = userModel;
     }
+    login(credentials) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const user = yield this.findByEmail(credentials.email);
+            const match = yield this.compareHash(credentials.password, user.password);
+            if (!user || !match) {
+                throw new common_1.NotFoundException('User not found');
+            }
+            return user;
+        });
+    }
     findByEmail(email) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.userModel.findOne({ email: email });
+            return yield this.userModel.findOne({ email });
         });
     }
     findById(id) {
         return __awaiter(this, void 0, void 0, function* () {
             return yield this.userModel.findOne({
-                where: { id: id }
+                where: { id },
             });
         });
     }
@@ -76,11 +86,16 @@ let UsersService = class UsersService {
             return yield this.userModel.findById(ID).exec();
         });
     }
+    compareHash(password, hash) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return bcrypt.compare(password, hash);
+        });
+    }
 };
 UsersService = __decorate([
     common_1.Injectable(),
     __param(0, mongoose_2.InjectModel('User')),
-    __metadata("design:paramtypes", [typeof (_a = typeof mongoose_1.Model !== "undefined" && mongoose_1.Model) === "function" ? _a : Object])
+    __metadata("design:paramtypes", [mongoose_1.Model])
 ], UsersService);
 exports.UsersService = UsersService;
 //# sourceMappingURL=users.service.js.map

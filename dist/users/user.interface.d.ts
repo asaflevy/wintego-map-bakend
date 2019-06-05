@@ -1,11 +1,12 @@
+/// <reference types="passport-local-mongoose" />
 import { PassportLocalDocument } from 'mongoose';
+import { IUser } from './user.interface';
 export interface IUser extends PassportLocalDocument {
     readonly firstName: string;
     readonly lastName: string;
     readonly email: string;
     readonly password: string;
 }
-import { IUser } from './user.interface';
 export interface IUsersService {
     findAll(): Promise<IUser[]>;
     findById(ID: number): Promise<IUser | null>;
