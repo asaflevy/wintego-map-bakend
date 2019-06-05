@@ -19,7 +19,7 @@ AppModule = __decorate([
         imports: [
             mongoose_1.MongooseModule.forRoot(process.env.MONGO_CONNECTION_URL),
             users_module_1.UsersModule,
-            auth_module_1.AuthModule
+            auth_module_1.AuthModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

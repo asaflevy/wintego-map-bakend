@@ -8,7 +8,7 @@ export class UsersController {
     constructor(private userSrv: UsersService) {
     }
 
-    @Post()
+    @Post('register')
     async create(@Body() createDto: CreateUserDto) {
         return await this.userSrv.create(createDto);
     }

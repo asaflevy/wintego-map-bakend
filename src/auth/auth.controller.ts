@@ -11,7 +11,7 @@ export class AuthController {
     @Get('verify')
     @UseGuards(AuthGuard())
     public async verify(token: string) {
-        Logger.log('test' + token)
+        Logger.log('test' + token);
         return this.authService.verifyToken(token);
     }
 

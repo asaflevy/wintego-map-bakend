@@ -1170,7 +1170,7 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/users/users.controller.ts": {
-        "version": "35485fc3db6fb4932b72fdf3e6b9b0b03ae06c16911ff815acd3a7a234405519",
+        "version": "49a84d2e8cbfb4ef550ddbd1da860b4a354abdb016e8822e1bec83fe0263f85e",
         "signature": "de85544c52f50fe9a712e3c981374e574af7f42bface282c312a032f2135789b"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": {
@@ -1218,7 +1218,7 @@
         "signature": "7d7cd49e9deac3a598f92ec1fe19d1e90c89c2af63af2e9260f75f937d74052e"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/users/user.schema.ts": {
-        "version": "214e53f680759d4ba4ffb8085e94683858517982271b8c294516fdbad66be580",
+        "version": "e33174de4b30418cf4b17b973b0798a5598307ad0b686f242ca6048ed5bfdcd7",
         "signature": "33b6d9f5900752b91a05e8ec298b94fec72ab453cbb20021183b577561396086"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/users/users.module.ts": {
@@ -1266,7 +1266,7 @@
         "signature": "08f95a4b3540918ed5a64f9156c3080a45815a710c3915080334e663d090196d"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.controller.ts": {
-        "version": "7a8bb3a01391f9138852f5ec18b3e0bd2a91ac47a433df9a855e38e79c72027d",
+        "version": "aee24fda8edfd9ce526e9e58312cdd35241b2955c7103017bc4f945ee973c78c",
         "signature": "753d4f351bde86073ee116a8c70aad1db00754e473c457a9cd6fb6afc9e2606b"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.module.ts": {
@@ -1274,7 +1274,7 @@
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/src/app.module.ts": {
-        "version": "8918cfb1b9da64c5b8eb5cc614e31799a606e33c92360d18b4b86b058bf3e021",
+        "version": "5bfc35a5ec3914fba7b52d869a33a5ea7c3aa5361d40605ee479ac7b72eadbee",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88"
       },
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -7308,6 +7308,7 @@
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/model/jwt-payload.interface.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.service.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/jwt.strategy.ts",
+      "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.controller.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.module.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/src/app.module.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -7344,8 +7345,7 @@
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/jest/index.d.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/json5/index.d.ts",
       "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/superagent/index.d.ts",
-      "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/supertest/index.d.ts",
-      "c:/project/angular/nest.js/wintego-map-bakend/src/auth/auth.controller.ts"
+      "c:/project/angular/nest.js/wintego-map-bakend/node_modules/@types/supertest/index.d.ts"
     ]
   },
   "version": "3.4.3"

@@ -1,15 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose = require("mongoose");
-const passportLocalMongoose = require("passport-local-mongoose");
 const bcrypt = require("bcrypt");
 exports.UserSchema = new mongoose.Schema({
-    firstName: String,
-    lastName: String,
-    email: String,
-    password: String,
+    firstName: { type: String, default: null, required: false },
+    lastName: { type: String, default: null, required: false },
+    email: { type: String, required: true },
+    password: { type: String, required: true },
+    created_date: { type: 'Date', default: Date.now, required: true },
 });
-exports.UserSchema.plugin(passportLocalMongoose);
 exports.UserSchema.pre('save', function (next) {
     const user = this;
     if (!user.isModified('password')) {
