@@ -7,5 +7,5 @@ export declare class UsersController {
     create(createDto: CreateUserDto): Promise<import("./intefaces/user.interface").IUser>;
     addLocation(addLocationDto: AddLocationDto): Promise<import("./intefaces/user.interface").IUser>;
     getAll(): Promise<import("./intefaces/user.interface").IUser[]>;
-    getUserData(userId: any): Promise<import("./intefaces/user.interface").IUser>;
+    getUserData(req: any, userId: any): Promise<import("./intefaces/user.interface").IUser>;
 }

@@ -8,6 +8,7 @@ export const UserSchema = new mongoose.Schema({
     password: {type: String, required: true},
     fkLocation: [{type: mongoose.Schema.Types.ObjectId, ref: 'location', required: false}],
     created_date: {type: 'Date', default: Date.now, required: true},
+    role:{type:Number,default:1}
 });
 
 UserSchema.pre('save', function(next) {

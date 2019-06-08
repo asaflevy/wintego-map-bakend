@@ -25,7 +25,7 @@ let JwtStrategy = class JwtStrategy extends passport_1.PassportStrategy(passport
     constructor(authService) {
         super({
             jwtFromRequest: passport_jwt_1.ExtractJwt.fromAuthHeaderAsBearerToken(),
-            secretOrKey: process.env.SECRET_KEY,
+            secretOrKey: "WINTEGO-SECRET_KEY_thisisthemosthardtoguesssecretekeyever",
         });
         this.authService = authService;
     }

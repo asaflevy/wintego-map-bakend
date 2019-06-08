@@ -45,4 +45,4 @@ LoggerInterceptorService = __decorate([
     __metadata("design:paramtypes", [mongoose_1.Model])
 ], LoggerInterceptorService);
 exports.LoggerInterceptorService = LoggerInterceptorService;
-//# sourceMappingURL=logger-interseptor.service.js.map
+//# sourceMappingURL=logger-Interseptor.service.js.map
