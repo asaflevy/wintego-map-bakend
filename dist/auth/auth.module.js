@@ -20,7 +20,7 @@ AuthModule = __decorate([
         imports: [
             passport_1.PassportModule.register({ defaultStrategy: 'jwt' }),
             jwt_1.JwtModule.register({
-                secretOrPrivateKey: process.env.SECRET_KEY,
+                secretOrPrivateKey: "WINTEGO-SECRET_KEY_thisisthemosthardtoguesssecretekeyever",
                 signOptions: { expiresIn: 3600 },
             }),
             users_module_1.UsersModule,

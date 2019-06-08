@@ -23,7 +23,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
+const passport_1 = require("@nestjs/passport");
 const add_location_dto_1 = require("./dto/add-location.dto");
+const admin_role_1 = require("src/auth/roles/admin.role");
 let UsersController = class UsersController {
     constructor(userSrv) {
         this.userSrv = userSrv;
@@ -43,8 +45,9 @@ let UsersController = class UsersController {
             return yield this.userSrv.findAll();
         });
     }
-    getUserData(userId) {
+    getUserData(req, userId) {
         return __awaiter(this, void 0, void 0, function* () {
+            const user = req.user;
             return yield this.userSrv.findById(userId);
         });
     }
@@ -64,16 +67,18 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "addLocation", null);
 __decorate([
+    common_1.UseGuards(passport_1.AuthGuard()),
     common_1.Get('getAll'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "getAll", null);
 __decorate([
+    common_1.UseGuards(admin_role_1.AdminRoleGuard),
     common_1.Get('getUserData/:id'),
-    __param(0, common_1.Param('id')),
+    __param(0, common_1.Req()), __param(1, common_1.Param('id')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "getUserData", null);
 UsersController = __decorate([

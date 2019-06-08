@@ -20,31 +20,23 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const jwt = require("jsonwebtoken");
+const jwt_1 = require("@nestjs/jwt");
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("../users/users.service");
 let AuthService = class AuthService {
-    constructor(userService) {
+    constructor(jwtService, userService) {
+        this.jwtService = jwtService;
         this.userService = userService;
     }
     createToken(credentials) {
         return __awaiter(this, void 0, void 0, function* () {
             const user = yield this.userService.login(credentials);
             const expiresIn = 60 * 60;
-            const accessToken = jwt.sign({ id: user.id }, process.env.SECRET_KEY, {
-                expiresIn,
-            });
+            const accessToken = this.jwtService.sign({ id: user.id });
             return {
                 expiresIn,
                 accessToken,
             };
-        });
-    }
-    verifyToken(token) {
-        return __awaiter(this, void 0, void 0, function* () {
-            return new Promise(resolve => {
-                jwt.verify(token, process.env.SECRET_KEY, decoded => resolve(decoded));
-            });
         });
     }
     validateUser(payload) {
@@ -55,8 +47,9 @@ let AuthService = class AuthService {
 };
 AuthService = __decorate([
     common_1.Injectable(),
-    __param(0, common_1.Inject(common_1.forwardRef(() => users_service_1.UsersService))),
-    __metadata("design:paramtypes", [users_service_1.UsersService])
+    __param(1, common_1.Inject(common_1.forwardRef(() => users_service_1.UsersService))),
+    __metadata("design:paramtypes", [jwt_1.JwtService,
+        users_service_1.UsersService])
 ], AuthService);
 exports.AuthService = AuthService;
 //# sourceMappingURL=auth.service.js.map

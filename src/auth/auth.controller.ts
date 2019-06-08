@@ -8,12 +8,12 @@ export class AuthController {
     constructor(private readonly authService: AuthService) {
     }
 
-    @Get('verify')
-    @UseGuards(AuthGuard())
-    public async verify(token: string) {
-        Logger.log('test' + token);
-        return this.authService.verifyToken(token);
-    }
+    // @Get('verify')
+    // @UseGuards(AuthGuard())
+    // public async verify(token: string) {
+    //     Logger.log('test' + token);
+    //     return this.authService.verifyToken(token);
+    // }
 
     @Post('token')
     public async getToken(@Body() credentials: LoginUserDto) {
