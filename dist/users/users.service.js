@@ -24,9 +24,13 @@ const mongoose_1 = require("mongoose");
 const common_1 = require("@nestjs/common");
 const mongoose_2 = require("@nestjs/mongoose");
 const bcrypt = require("bcrypt");
+const location_service_1 = require("../shared/location/location.service");
+const eventType_model_1 = require("../shared/eventType.model");
+const mongoose = require("mongoose");
 let UsersService = class UsersService {
-    constructor(userModel) {
+    constructor(userModel, locationService) {
         this.userModel = userModel;
+        this.locationService = locationService;
     }
     login(credentials) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -45,9 +49,8 @@ let UsersService = class UsersService {
     }
     findById(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.userModel.findOne({
-                where: { id },
-            });
+            const userId = mongoose.Types.ObjectId(id);
+            return yield this.userModel.findById(userId).populate('fkLocation').exec();
         });
     }
     create(createUserDto) {
@@ -56,10 +59,27 @@ let UsersService = class UsersService {
             return yield createdUser.save();
         });
     }
+    addLocation(locationDto) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const user = yield this.findById(locationDto.userId);
+            if (!user) {
+                throw Error('User Not Fount');
+            }
+            const location = yield this.locationService.insert({
+                latitude: locationDto.latitude,
+                longitude: locationDto.longitude,
+                info: locationDto.info,
+                type: eventType_model_1.LocationType.User,
+            });
+            const { _id } = location;
+            user.fkLocation.push(_id);
+            return yield user.save();
+        });
+    }
     delete(ID) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                yield this.userModel.findByIdAndRemove(ID).exec();
+                yield this.userModel.findByIdAndRemove(ID);
                 return 'The user has been deleted';
             }
             catch (err) {
@@ -69,7 +89,7 @@ let UsersService = class UsersService {
     }
     findAll() {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.userModel.find().exec();
+            return yield this.userModel.find().populate('fkLocation').exec();
         });
     }
     findOne(options) {
@@ -77,13 +97,14 @@ let UsersService = class UsersService {
             return yield this.userModel.findOne(options).exec();
         });
     }
-    update(ID, newValue) {
+    update(id, newValue) {
         return __awaiter(this, void 0, void 0, function* () {
-            const user = yield this.userModel.findById(ID).exec();
+            const user = yield this.userModel.findById(id).exec();
             if (!user._id) {
+                throw new Error('User not found');
             }
-            yield this.userModel.findByIdAndUpdate(ID, newValue).exec();
-            return yield this.userModel.findById(ID).exec();
+            yield this.userModel.findByIdAndUpdate(id, newValue).exec();
+            return yield this.userModel.findById(id).exec();
         });
     }
     compareHash(password, hash) {
@@ -95,7 +116,9 @@ let UsersService = class UsersService {
 UsersService = __decorate([
     common_1.Injectable(),
     __param(0, mongoose_2.InjectModel('User')),
-    __metadata("design:paramtypes", [mongoose_1.Model])
+    __param(1, common_1.Inject(common_1.forwardRef(() => location_service_1.LocationService))),
+    __metadata("design:paramtypes", [mongoose_1.Model,
+        location_service_1.LocationService])
 ], UsersService);
 exports.UsersService = UsersService;
 //# sourceMappingURL=users.service.js.map

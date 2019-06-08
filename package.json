@@ -30,6 +30,7 @@
     "@types/passport-local-mongoose": "^4.0.12",
     "bcrypt": "^3.0.6",
     "dotenv": "^8.0.0",
+    "ipapi.co": "^0.3.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.12",
     "passport": "^0.4.0",

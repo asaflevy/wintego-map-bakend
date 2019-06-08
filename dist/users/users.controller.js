@@ -23,7 +23,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
-const passport_1 = require("@nestjs/passport");
+const add_location_dto_1 = require("./dto/add-location.dto");
 let UsersController = class UsersController {
     constructor(userSrv) {
         this.userSrv = userSrv;
@@ -33,9 +33,19 @@ let UsersController = class UsersController {
             return yield this.userSrv.create(createDto);
         });
     }
+    addLocation(addLocationDto) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.userSrv.addLocation(addLocationDto);
+        });
+    }
     getAll() {
         return __awaiter(this, void 0, void 0, function* () {
             return yield this.userSrv.findAll();
+        });
+    }
+    getUserData(userId) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.userSrv.findById(userId);
         });
     }
 };
@@ -47,12 +57,25 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "create", null);
 __decorate([
-    common_1.UseGuards(passport_1.AuthGuard()),
+    common_1.Post('addLocation'),
+    __param(0, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [add_location_dto_1.AddLocationDto]),
+    __metadata("design:returntype", Promise)
+], UsersController.prototype, "addLocation", null);
+__decorate([
     common_1.Get('getAll'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "getAll", null);
+__decorate([
+    common_1.Get('getUserData/:id'),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], UsersController.prototype, "getUserData", null);
 UsersController = __decorate([
     common_1.Controller('users'),
     __metadata("design:paramtypes", [users_service_1.UsersService])

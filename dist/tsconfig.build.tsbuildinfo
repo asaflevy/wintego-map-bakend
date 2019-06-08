@@ -1113,9 +1113,21 @@
         "version": "6923e7e74cb2839ea966e86fc32c0d1f9eb83ad1c125c42c12c19492b2f5f5d4",
         "signature": "6923e7e74cb2839ea966e86fc32c0d1f9eb83ad1c125c42c12c19492b2f5f5d4"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts": {
-        "version": "01f61cf386b34148159473f125a8cac24e57878e141e1daa1145db30ab83f787",
-        "signature": "0045db703c352a501d8bec9bde04f52d87775a08cecf4bf35cb31716490f83f0"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts": {
+        "version": "91b430914e8cddd5e92cf94ae6a13380d5eba093e3d1dd9a3853ad7659145291",
+        "signature": "a23d4888785621a8ae611dd57d807587347c0c5e5065928073bbae2f3b4a121f"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts": {
+        "version": "81066ab12ef7165521450eb81e12012760ec075366837701d9ce91e3c7c9c183",
+        "signature": "31e93cd7d998234d6cec64afc64e6e9cb9f0161f1877b9ebf72232f761210c7d"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts": {
+        "version": "86f34d27f91bbb91435daef0c9c2285b7f8a8c503eafe775412cb3374cc2cc5c",
+        "signature": "2e22579e89f3f8f2077c135c2b02748e42ed100f079d7715303ed09e3390eff4"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts": {
+        "version": "6e1980f6c9b3cef9e5e61abb1f11a3b7c2f5464a9b35a017773c77f639dccd81",
+        "signature": "908342a176a4eff4efdd365e47c11c7e5d709836702d6cb0f13c08c9ee012cb4"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts": {
         "version": "e4dc23657d0462cfbc32733b849c1899de329a57b1743b74a0f1f140896a3b5b",
@@ -1125,9 +1137,13 @@
         "version": "f9299bca39fd5ac643691542dda76ebe6b011ce84dc03b360f2db1b16a6668bb",
         "signature": "2ac7b9d0589e304cfa19867f3ad677e3273d31763db6ba6d8d1457e933a63cc1"
       },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts": {
+        "version": "3ec6c7bde4d0b5b85a6b44da0676a4430358bbf52dd80e93775729d23454a978",
+        "signature": "b41b9985c96b85fa8af02bc300342b8a9893dc8ff7a3a2c1242b30d1150da349"
+      },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts": {
-        "version": "9560bc3cead44346fce685acbf93869bcfce1b474ee509dbd50d82f56c151e44",
-        "signature": "c4332899a932073fe476990e18687ad1b5d012724590bb3b7a2726d50cd6a970"
+        "version": "e5a6102282482697b006ec01b8b3925cdf4f1049a4a1e117fa3448891af77876",
+        "signature": "b2fa9ac985374a41eac327fa5af3590b8cfe4f5484043ba21052d71473490b45"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": {
         "version": "ba63131c5e91f797736444933af16ffa42f9f8c150d859ec65f568f037a416ea",
@@ -1170,59 +1186,23 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.controller.ts": {
-        "version": "76661b35a4dad4310d9368be558dde98cc7e320a009cb88a170e14af0fb9c11d",
-        "signature": "bc339c517696632d4195529387e6032040b72db1bb00ed0f0abf463e41b1be8c"
+        "version": "8d819a83c8da62d6a5ff586d4d40cbaf7307e5c39884fde954aa90c9634c4cb4",
+        "signature": "8294037ba96e3185e8efa8781d071fd7802c1317ed324bf8b3cb91aa62cffa7e"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": {
-        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
-        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": {
-        "version": "0aedf3934f853fe2434909d11098b93255ef60a757f18425d2755f0531beee5b",
-        "signature": "0aedf3934f853fe2434909d11098b93255ef60a757f18425d2755f0531beee5b"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": {
-        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
-        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": {
-        "version": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff",
-        "signature": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": {
-        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
-        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": {
-        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
-        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": {
-        "version": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b",
-        "signature": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": {
-        "version": "d28897ce8805732025d37e0acb24accd2903396d5c6a880b1cc3c2307f5ba7a2",
-        "signature": "d28897ce8805732025d37e0acb24accd2903396d5c6a880b1cc3c2307f5ba7a2"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": {
-        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
-        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": {
-        "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
-        "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": {
-        "version": "7d7cd49e9deac3a598f92ec1fe19d1e90c89c2af63af2e9260f75f937d74052e",
-        "signature": "7d7cd49e9deac3a598f92ec1fe19d1e90c89c2af63af2e9260f75f937d74052e"
-      },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.schema.ts": {
-        "version": "b097ae7951a321be37a24986859c7b0d9a7c50dfbb71a2a8d3200747a2109edc",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/schemas/user.schema.ts": {
+        "version": "3dc20eaa03dda79634903c49b55c44e98cdd4f10e380cd45e07e78058bcef0a1",
         "signature": "1c21071f2c0d7d9779303a6a204301fb1576821e54fc756baf24e3e726ba2897"
       },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts": {
+        "version": "160441f0e7f1372987b73000872fdc1b6fb9df2aeff50f2e3944851b7c370aa4",
+        "signature": "6c2bec8ace314ab4c7fb8e103d38c057e333a1c186eda4dac18caba8d428a691"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/shared.module.ts": {
+        "version": "065e87bf33a0b2643e773afb5cc04efed7bd25ef39168fedb93a6f93c4cd9ace",
+        "signature": "4ce14b723d4727430e39ae2639941594907e9d7da54205f623de49aa9ab77fb3"
+      },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.module.ts": {
-        "version": "84c02ebc3f96863451e47d17b4908b16af6bdb8f95a273d0154f6b1d495e3de9",
+        "version": "22d7df3fae10c72e12cf8953dae6505f560244dea604244cf824447f22e29ed9",
         "signature": "aa1725e38b5a0b4009f6a74f296f173e7926c119a60454dbd2e523861735df69"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -1254,8 +1234,8 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/auth/model/jwt-payload.interface.ts": {
-        "version": "a57dc3e32a0bae4f5a0bd95226d0a3f21d98910a76df34fd92063d4819803bb3",
-        "signature": "8844885ea1b45627b985702f4e1a69eb925788933b96e5295256c22f7accf0bb"
+        "version": "67c0eb87fcaf949619e88647cc58988d867e4ba646071b1ce39650fb1e642aca",
+        "signature": "67c0eb87fcaf949619e88647cc58988d867e4ba646071b1ce39650fb1e642aca"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/auth/auth.service.ts": {
         "version": "fdc4d9e14922b37062c48bb643a286fe6e93cbaa2919c253c1ef9d925d31476a",
@@ -1801,24 +1781,32 @@
         "version": "8548a1a83c1091e8c7a355b7edf031854b007d10a7fa24e180a95d608c87704e",
         "signature": "8548a1a83c1091e8c7a355b7edf031854b007d10a7fa24e180a95d608c87704e"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts": {
-        "version": "ad26a6237c1777df5f3e1fd4defdeb0e778aac47f878cb9c906a23be3d707bbd",
-        "signature": "4f0ff0c5c13ae847e5e15ecd650cbbd00d3b927f474fc81cb99900a91a6cf74e"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts": {
+        "version": "de91faa76392a89fdbe7087065fab376815ef340394240b2ecbefe0efda4dfff",
+        "signature": "5acd536524ae86a2c78e842136248d4c2f58fb566a13a3ee7cc0236c78882f0d"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts": {
-        "version": "0db498314398d4471b400c7395a9c995b4b65b6b6f352c7c02f32d6c45907165",
-        "signature": "75aa00520bce14cb96f30d9867f1bd8d1f4feb055c97370739d7ce1b4e8633e1"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts": {
+        "version": "87d24667fe4a1f7f17f2fbe0ecafedf65971bd9737a9ace1a607a2dadbaebb0b",
+        "signature": "f95719d4be1edba999205b34e6862afa1632b334e6c5ce401af4987b875801c5"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/logging.interceptor.ts": {
-        "version": "0a2e6943c64709abfc9e5672c5faa6c77517fad47d309842b7aee36c567cce98",
-        "signature": "592bec63581d498c2c6a08195f7b5e3785f03a4525c84df37adf10a529d74aa6"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logging.interceptor.ts": {
+        "version": "bdc3d7857d8bf0b4022982fda7bb861ee48f749c609d44bb4ef799f7a1ed0083",
+        "signature": "a02b675cba67108430ede16d1398c3c13e9206007d7155af95b39841e4c422ae"
       },
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/schemas/loggerinterseptor.schema.ts": {
-        "version": "2bd0a9ba84d51acb13fb3f56596758307ffb69aa498b2f21b61247df393cdccb",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/schemas/loggerinterseptor.schema.ts": {
+        "version": "2da4400db6fc40169d4eba19f690d300f1cdfdea91fb1e2a7f69140136561f96",
         "signature": "452dbeac009fbcfc0eec19b3a94a013cfce6c2067070c7755d5b164afd59f9f7"
       },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interceptor.controller.ts": {
+        "version": "74577760ca3e5c7baa677d45b35db308b2f1242446f8697e6cc26ad17a15be3d",
+        "signature": "4812b317a94773edd1ae6339dab4ce88f87c1cbd994a0fa9e8a013a9310890e4"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/interseptor.module.ts": {
+        "version": "946b3e9a5cffe41bc1187b1c824327e236b8b77a6645dbd1e0a4f01254358cab",
+        "signature": "54be0ef1e086d6cd3a2c24852b7f10a75763ce2d448d7880fac0631733e22e58"
+      },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/app.module.ts": {
-        "version": "41c8944dd8c7016bd2eeabb8a0d07c52e1d95cc492eb7fd943f216c33be2dc33",
+        "version": "f59bee712807f40aa63e257dd20bbcdcfc83dff1ff630bcac2b819ab5df12b7e",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/main.ts": {
@@ -1841,9 +1829,37 @@
         "version": "460b3019f68ee9893a4eef0b438fa6998885e091100ed18b6925b0025c7fdc15",
         "signature": "af9e6e1a18b83eb9a5c1e344e56c5648e4e6ab7240a59e66122f22bd5ca76cb8"
       },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": {
+        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
+        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": {
+        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
+        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
+      },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/cookiejar/index.d.ts": {
         "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
         "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "0aedf3934f853fe2434909d11098b93255ef60a757f18425d2755f0531beee5b",
+        "signature": "0aedf3934f853fe2434909d11098b93255ef60a757f18425d2755f0531beee5b"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": {
+        "version": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff",
+        "signature": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": {
+        "version": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b",
+        "signature": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/jest/index.d.ts": {
         "version": "37dbdee3bb13bc254e9d75bbb75569e807369868e5cbd89ce72aa77fb22fcb75",
@@ -1852,6 +1868,22 @@
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": {
+        "version": "d28897ce8805732025d37e0acb24accd2903396d5c6a880b1cc3c2307f5ba7a2",
+        "signature": "d28897ce8805732025d37e0acb24accd2903396d5c6a880b1cc3c2307f5ba7a2"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": {
+        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
+        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": {
+        "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
+        "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26"
+      },
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": {
+        "version": "7d7cd49e9deac3a598f92ec1fe19d1e90c89c2af63af2e9260f75f937d74052e",
+        "signature": "7d7cd49e9deac3a598f92ec1fe19d1e90c89c2af63af2e9260f75f937d74052e"
       },
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/superagent/index.d.ts": {
         "version": "e8bd972c3895277d7d9e702262a0408fbe36bb69c733bf26f9f15c396cad34c5",
@@ -4079,9 +4111,30 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
@@ -4098,13 +4151,26 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/login-user.dto.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
@@ -4189,110 +4255,43 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/schemas/user.schema.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/shared.module.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/events.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.schema.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.module.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.controller.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.schema.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/schemas/user.schema.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/shared.module.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
@@ -5548,35 +5547,56 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/logging.interceptor.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logging.interceptor.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/operators/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/schemas/loggerinterseptor.schema.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/schemas/loggerinterseptor.schema.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interceptor.controller.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/interseptor.module.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/schemas/loggerinterseptor.schema.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interceptor.controller.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/app.module.ts": [
@@ -5588,9 +5608,10 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/auth/auth.module.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/core/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/http-error.filter.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/logging.interceptor.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/schemas/loggerinterseptor.schema.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logging.interceptor.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/interseptor.module.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/shared.module.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
@@ -5632,7 +5653,63 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/cookiejar/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/events.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
@@ -5649,6 +5726,36 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/superagent/index.d.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/fs.d.ts",
@@ -7859,15 +7966,26 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts"
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/login-user.dto.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts"
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
@@ -7945,97 +8063,15 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.controller.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts"
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/schemas/user.schema.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/events.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.schema.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/jsonwebtoken/index.d.ts": [
@@ -9247,20 +9283,24 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts"
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/logging.interceptor.ts": [
-        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logging.interceptor.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/common/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/index.d.ts"
       ],
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/schemas/loggerinterseptor.schema.ts": [
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/schemas/loggerinterseptor.schema.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interceptor.controller.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/intefaces/ierror.interface.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
@@ -9272,7 +9312,63 @@
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/schemas/error.schema.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts"
       ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/cookiejar/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/http.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/events.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
@@ -9289,6 +9385,36 @@
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts"
+      ],
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts": [
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/util.d.ts",
+        "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/superagent/index.d.ts": [
         "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/node/fs.d.ts",
@@ -9588,10 +9714,13 @@
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/bson/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongodb/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mongoose/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.interface.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/eventtype.model.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/intefaces/location.interface.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/add-location.dto.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/intefaces/user.interface.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/create-user.dto.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/dto/login-user.dto.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/location.service.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
@@ -9603,18 +9732,9 @@
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/dist/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/passport/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.controller.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/user.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/schemas/user.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/location/schemas/location.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/shared.module.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.module.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/jsonwebtoken/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@nestjs/jwt/dist/interfaces/jwt-module-options.interface.d.ts",
@@ -9760,21 +9880,35 @@
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/internal/operators/zip.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/internal/operators/zipall.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/rxjs/operators/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/intefaces/loginterseptor.interface.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/loginterseptor.service.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/schemas/loggerinterseptor.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/intefaces/loginterseptor.interface.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interseptor.service.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logging.interceptor.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/schemas/loggerinterseptor.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/logger-interceptor.controller.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/interceptor/interseptor.module.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/app.module.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/main.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/auth/model/token.interface.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/intefaces/ierror.interface.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/error.service.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/errorhandler/schemas/error.schema.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/connect/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/body-parser/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/cookiejar/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/range-parser/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express-serve-static-core/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/mime/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/serve-static/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/express/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/jest/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/json5/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-strategy/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local/index.d.ts",
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/passport-local-mongoose/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/superagent/index.d.ts",
       "/users/asaflevy/project/wintego_project/wintego-map-bakend/node_modules/@types/supertest/index.d.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/shared/interceptor/logging.interceptor.ts",
-      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/app.module.ts"
+      "/users/asaflevy/project/wintego_project/wintego-map-bakend/src/users/users.service.ts"
     ]
   },
   "version": "3.4.3"

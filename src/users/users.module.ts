@@ -1,12 +1,14 @@
-import {Module} from '@nestjs/common';
+import {forwardRef, Module} from '@nestjs/common';
 import {UsersController} from './users.controller';
 import {UsersService} from './users.service';
 import {MongooseModule} from '@nestjs/mongoose';
-import {UserSchema} from './user.schema';
+import {UserSchema} from './schemas/user.schema';
 import {PassportModule} from '@nestjs/passport';
+import {SharedModule} from '../shared/shared.module';
 
 @Module({
     imports: [
+        forwardRef(() => SharedModule),
         MongooseModule.forFeature([{name: 'User', schema: UserSchema}]),
         PassportModule.register({defaultStrategy: 'jwt', session: false}),
     ],

@@ -14,21 +14,23 @@ const users_module_1 = require("./users/users.module");
 const auth_module_1 = require("./auth/auth.module");
 const core_1 = require("@nestjs/core");
 const http_error_filter_1 = require("./shared/errorHandler/http-error.filter");
-const logging_interceptor_1 = require("./shared/Interceptor/logging.interceptor");
-const logInterseptor_service_1 = require("./shared/Interceptor/logInterseptor.service");
-const loggerInterseptor_schema_1 = require("./shared/Interceptor/schemas/loggerInterseptor.schema");
+const logging_interceptor_1 = require("./Interceptor/logging.interceptor");
+const interseptor_module_1 = require("./Interceptor/interseptor.module");
+const shared_module_1 = require("./shared/shared.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
         imports: [
+            common_1.HttpModule,
             mongoose_1.MongooseModule.forRoot(process.env.MONGO_CONNECTION_URL),
-            mongoose_1.MongooseModule.forFeature([{ name: 'LogInterseptor', schema: loggerInterseptor_schema_1.LoggingInterceptorSchema }]),
             users_module_1.UsersModule,
             auth_module_1.AuthModule,
+            interseptor_module_1.LoggerInterceptorModel,
+            common_1.forwardRef(() => shared_module_1.SharedModule),
         ],
         controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService, logInterseptor_service_1.LogInterseptorService,
+        providers: [app_service_1.AppService,
             {
                 provide: core_1.APP_FILTER,
                 useClass: http_error_filter_1.HttpErrorFilter,

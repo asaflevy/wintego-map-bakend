@@ -1,5 +1,4 @@
 import * as mongoose from 'mongoose';
-import * as passportLocalMongoose from 'passport-local-mongoose';
 import * as bcrypt from 'bcrypt';
 
 export const UserSchema = new mongoose.Schema({
@@ -7,6 +6,7 @@ export const UserSchema = new mongoose.Schema({
     lastName: {type: String, default: null, required: false},
     email: {type: String, required: true},
     password: {type: String, required: true},
+    fkLocation: [{type: mongoose.Schema.Types.ObjectId, ref: 'location', required: false}],
     created_date: {type: 'Date', default: Date.now, required: true},
 });
 

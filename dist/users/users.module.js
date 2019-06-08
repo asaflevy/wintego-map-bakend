@@ -10,13 +10,15 @@ const common_1 = require("@nestjs/common");
 const users_controller_1 = require("./users.controller");
 const users_service_1 = require("./users.service");
 const mongoose_1 = require("@nestjs/mongoose");
-const user_schema_1 = require("./user.schema");
+const user_schema_1 = require("./schemas/user.schema");
 const passport_1 = require("@nestjs/passport");
+const shared_module_1 = require("../shared/shared.module");
 let UsersModule = class UsersModule {
 };
 UsersModule = __decorate([
     common_1.Module({
         imports: [
+            common_1.forwardRef(() => shared_module_1.SharedModule),
             mongoose_1.MongooseModule.forFeature([{ name: 'User', schema: user_schema_1.UserSchema }]),
             passport_1.PassportModule.register({ defaultStrategy: 'jwt', session: false }),
         ],

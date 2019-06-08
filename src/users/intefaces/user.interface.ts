@@ -1,17 +1,20 @@
 import {PassportLocalDocument} from 'mongoose';
 import {IUser} from './user.interface';
+import {ILocation} from '../../shared/location/intefaces/location.interface';
+import {AddLocationDto} from '../dto/add-location.dto';
 
 export interface IUser extends PassportLocalDocument {
     readonly firstName: string;
     readonly lastName: string;
     readonly email: string;
     readonly password: string;
+    readonly fkLocation: [];
 }
 
 export interface IUsersService {
     findAll(): Promise<IUser[]>;
 
-    findById(ID: number): Promise<IUser | null>;
+    findById(ide: string): Promise<IUser | null>;
 
     findByEmail(email: string): Promise<IUser | null>;
 
@@ -19,7 +22,9 @@ export interface IUsersService {
 
     create(user: IUser): Promise<IUser>;
 
-    update(ID: number, newValue: IUser): Promise<IUser | null>;
+    addLocation(locationDto: AddLocationDto): Promise<IUser>;
 
-    delete(ID: number): Promise<string>;
+    update(id: number, newValue: IUser): Promise<IUser | null>;
+
+    delete(id: number): Promise<string>;
 }

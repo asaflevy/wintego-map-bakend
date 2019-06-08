@@ -1,7 +1,7 @@
 import {Document} from 'mongoose';
 
-export interface ILoggingInterceptor extends Document {
+export interface IloggerInterceptor extends Document {
     readonly message: string;
     readonly  ip: string;
-    readonly created_date: Date;
+    readonly fkLocation: string;
 }
