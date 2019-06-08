@@ -1,9 +1,9 @@
 import {Body, Controller, Get, Param, Post, UseGuards, Req} from '@nestjs/common';
 import {UsersService} from './users.service';
-import {CreateUserDto} from './dto/create-user.dto';
 import {AuthGuard} from '@nestjs/passport';
 import {AddLocationDto} from './dto/add-location.dto';
 import { AdminRoleGuard } from 'src/auth/roles/admin.role';
+import {CreateUserDto} from './dto/user.dto';
 
 @Controller('users')
 export class UsersController {

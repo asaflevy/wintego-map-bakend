@@ -1,4 +1,4 @@
-import { JwtService } from '@nestjs/jwt';
+import {JwtService} from '@nestjs/jwt';
 import {forwardRef, Inject, Injectable} from '@nestjs/common';
 import {UsersService} from '../users/users.service';
 import {LoginUserDto} from '../users/dto/login-user.dto';
@@ -20,12 +20,6 @@ export class AuthService {
             accessToken,
         };
     }
-
-    // async verifyToken(token: string) {
-    //     return new Promise(resolve => {
-    //         jwt.verify(token, process.env.SECRET_KEY, decoded => resolve(decoded));
-    //     });
-    // }
 
     async validateUser(payload: JwtPayload): Promise<any> {
         return await this.userService.findById(payload.id);

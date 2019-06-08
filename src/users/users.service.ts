@@ -2,7 +2,6 @@ import {Model, Mongoose, Schema, Types} from 'mongoose';
 import {forwardRef, HttpStatus, Inject, Injectable, NotFoundException} from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
 import {IUser, IUsersService} from './intefaces/user.interface';
-import {CreateUserDto} from './dto/create-user.dto';
 import * as bcrypt from 'bcrypt';
 import {LoginUserDto} from './dto/login-user.dto';
 import {AddLocationDto} from './dto/add-location.dto';
@@ -10,6 +9,7 @@ import {LocationService} from '../shared/location/location.service';
 import {ILocation} from '../shared/location/intefaces/location.interface';
 import {LocationType} from '../shared/eventType.model';
 import * as mongoose from 'mongoose';
+import {CreateUserDto} from './dto/user.dto';
 
 @Injectable()
 export class UsersService implements IUsersService {
