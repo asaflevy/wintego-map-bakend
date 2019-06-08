@@ -2,7 +2,7 @@ import {JwtService} from '@nestjs/jwt';
 import {forwardRef, Inject, Injectable} from '@nestjs/common';
 import {UsersService} from '../users/users.service';
 import {LoginUserDto} from '../users/dto/login-user.dto';
-import {JwtPayload} from './Model/jwt-payload.interface';
+import {JwtPayload} from './model/jwt-payload.interface';
 
 @Injectable()
 export class AuthService {
@@ -18,6 +18,9 @@ export class AuthService {
         return {
             expiresIn,
             accessToken,
+            userId: user.id,
+            email: user.email,
+            role: user.role
         };
     }
 

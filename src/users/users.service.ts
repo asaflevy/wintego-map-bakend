@@ -1,5 +1,5 @@
-import {Model, Mongoose, Schema, Types} from 'mongoose';
-import {forwardRef, HttpStatus, Inject, Injectable, NotFoundException} from '@nestjs/common';
+import {Model} from 'mongoose';
+import {forwardRef, Inject, Injectable, NotFoundException} from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
 import {IUser, IUsersService} from './intefaces/user.interface';
 import * as bcrypt from 'bcrypt';

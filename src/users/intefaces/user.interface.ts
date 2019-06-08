@@ -8,7 +8,9 @@ export interface IUser extends PassportLocalDocument {
     readonly lastName: string;
     readonly email: string;
     readonly password: string;
+    readonly role: UserType;
     readonly fkLocation: [];
+
 }
 
 export interface IUsersService {
@@ -27,4 +29,9 @@ export interface IUsersService {
     update(id: number, newValue: IUser): Promise<IUser | null>;
 
     delete(id: number): Promise<string>;
+}
+
+export enum UserType {
+    User = 0,
+    Admin = 1,
 }
