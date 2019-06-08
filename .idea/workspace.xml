@@ -7,112 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c734886-c26b-44f5-8d84-06863a4f5371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/intefaces/logInterseptor.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/intefaces/logInterseptor.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/intefaces/logInterseptor.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/interseptor.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/interseptor.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/interseptor.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interceptor.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interceptor.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interceptor.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interseptor.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interseptor.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logger-interseptor.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logging.interceptor.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logging.interceptor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/logging.interceptor.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/schemas/loggerInterseptor.schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/schemas/loggerInterseptor.schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Interceptor/schemas/loggerInterseptor.schema.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/jwt-payload.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/jwt-payload.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/jwt-payload.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/token.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/token.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/Model/token.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/auth.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/jwt.strategy.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/jwt.strategy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth/jwt.strategy.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/error.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/error.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/error.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/http-error.filter.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/http-error.filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/http-error.filter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/intefaces/Ierror.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/intefaces/Ierror.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/intefaces/Ierror.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/schemas/error.schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/schemas/error.schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/errorHandler/schemas/error.schema.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/eventType.model.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/eventType.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/eventType.model.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/intefaces/location.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/intefaces/location.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/intefaces/location.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/location.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/location.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/location.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/schemas/location.schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/schemas/location.schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/location/schemas/location.schema.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/shared.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/shared.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shared/shared.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tsconfig.build.tsbuildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/add-location.dto.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/add-location.dto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/add-location.dto.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/create-user.dto.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/create-user.dto.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/login-user.dto.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/login-user.dto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/dto/login-user.dto.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/intefaces/user.interface.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/intefaces/user.interface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/intefaces/user.interface.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/schemas/user.schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/schemas/user.schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/schemas/user.schema.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.controller.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.module.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.module.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.service.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/users/users.service.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/dto/user.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,14 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/users/users.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-779">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -161,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -187,27 +78,6 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@types/jsonwebtoken/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@nestjs/passport/dist/auth.guard.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -279,9 +149,9 @@
         <option value="$PROJECT_DIR$/src/users/intefaces/user.interface.ts" />
         <option value="$PROJECT_DIR$/src/main.ts" />
         <option value="$PROJECT_DIR$/src/auth/auth.service.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/users/users.controller.ts" />
         <option value="$PROJECT_DIR$/src/users/users.service.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -404,7 +274,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33496000" />
+    <option name="totallyTimeSpent" value="33748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1918" height="1055" extended-state="6" />
@@ -416,8 +286,8 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,7 +295,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32908705" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -773,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/users/users.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -795,11 +658,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/users/users.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-779">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@nestjs/passport/dist/auth.guard.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/jsonwebtoken/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
