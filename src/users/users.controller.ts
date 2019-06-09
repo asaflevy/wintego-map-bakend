@@ -4,8 +4,11 @@ import {AuthGuard} from '@nestjs/passport';
 import {AddLocationDto} from './dto/add-location.dto';
 import { AdminRoleGuard } from 'src/auth/roles/admin.role';
 import {CreateUserDto} from './dto/user.dto';
+import {ApiUseTags} from '@nestjs/swagger';
+import {UpdateLocationDto} from './dto/UpdateLocation.dto';
 
-@Controller('users')
+@ApiUseTags('users')
+@Controller('api/users')
 export class UsersController {
     constructor(private userSrv: UsersService) {
     }
@@ -20,12 +23,19 @@ export class UsersController {
         return await this.userSrv.addLocation(addLocationDto);
     }
 
-    @UseGuards(AuthGuard())
+    @Post('updateLocation')
+    async updateLocation(@Body('updateLocationDto') updateLocationDto: UpdateLocationDto) {
+        return await this.userSrv.updateLocation(updateLocationDto);
+    }
+
+    //@UseGuards(AdminRoleGuard)
+    //@UseGuards(AuthGuard())
     @Get('getAll')
     async getAll() {
         return await this.userSrv.findAll();
     }
-    @UseGuards(AdminRoleGuard)
+
+    //@UseGuards(AuthGuard())
     @Get('getUserData/:id')
     async getUserData(@Req() req, @Param('id') userId) {
         const user = req.user;

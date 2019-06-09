@@ -2,6 +2,7 @@ import {PassportLocalDocument} from 'mongoose';
 import {IUser} from './user.interface';
 import {ILocation} from '../../shared/location/intefaces/location.interface';
 import {AddLocationDto} from '../dto/add-location.dto';
+import {UpdateLocationDto} from '../dto/UpdateLocation.dto';
 
 export interface IUser extends PassportLocalDocument {
     readonly firstName: string;
@@ -25,6 +26,8 @@ export interface IUsersService {
     create(user: IUser): Promise<IUser>;
 
     addLocation(locationDto: AddLocationDto): Promise<IUser>;
+
+    updateLocation(locationDto: UpdateLocationDto): Promise<ILocation>;
 
     update(id: number, newValue: IUser): Promise<IUser | null>;
 

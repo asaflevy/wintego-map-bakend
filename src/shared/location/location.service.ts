@@ -2,6 +2,7 @@ import {Model} from 'mongoose';
 import {Injectable} from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
 import {ILocation} from './intefaces/location.interface';
+import {UpdateLocationDto} from '../../users/dto/UpdateLocation.dto';
 
 @Injectable()
 export class LocationService {
@@ -14,4 +15,11 @@ export class LocationService {
        return await loc.save();
     }
 
+    public async updateLocation(location: UpdateLocationDto): Promise<ILocation | null> {
+        const loc =  await this.locationModel.findByIdAndUpdate(location._id, location).exec();
+        return loc;
+    }
+
 }
+
+

@@ -17,7 +17,7 @@ async function bootstrap() {
         .addTag('Wintego')
         .build();
     const document = SwaggerModule.createDocument(app, options);
-    SwaggerModule.setup('api', app, document);
+    SwaggerModule.setup('WintegoApi', app, document);
     await app.listen(port);
     Logger.log(`Server running on http://localhost:${port}`, 'Bootstrap');
 

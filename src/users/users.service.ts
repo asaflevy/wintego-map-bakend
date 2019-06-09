@@ -10,6 +10,7 @@ import {ILocation} from '../shared/location/intefaces/location.interface';
 import {LocationType} from '../shared/eventType.model';
 import * as mongoose from 'mongoose';
 import {CreateUserDto} from './dto/user.dto';
+import {UpdateLocationDto} from './dto/UpdateLocation.dto';
 
 @Injectable()
 export class UsersService implements IUsersService {
@@ -56,6 +57,14 @@ export class UsersService implements IUsersService {
         const {_id} = location as never;
         user.fkLocation.push(_id);
         return await user.save();
+    }
+
+    async updateLocation(updateLocationDto: UpdateLocationDto): Promise<ILocation> {
+        const user = await this.findById(updateLocationDto.userId);
+        if (!user) {
+            throw Error('User Not Fount');
+        }
+        return await this.locationService.updateLocation(updateLocationDto);
     }
 
     async delete(ID: number): Promise<string> {

@@ -20,7 +20,7 @@ export class AuthService {
             accessToken,
             userId: user.id,
             email: user.email,
-            role: user.role
+            role: user.role,
         };
     }
 

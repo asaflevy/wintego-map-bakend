@@ -33,5 +33,17 @@ export const LocationSchema = new mongoose.Schema({
         required: false,
         default: '',
     },
+
+    label: {
+        type: String,
+        required: false,
+        default: '',
+    },
+
+    iconUrl: {
+        type: String,
+        required: false,
+        default: 'http://chittagongit.com/images/google-map-marker-icon/google-map-marker-icon-3.jpg',
+    },
     created_date: {type: 'Date', default: Date.now, required: true},
 });
