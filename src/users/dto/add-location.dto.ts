@@ -3,4 +3,6 @@ export class AddLocationDto {
     readonly latitude: number;
     readonly longitude: number;
     readonly info?: string;
+    readonly iconUrl?: string;
+    readonly lable?: string;
 }

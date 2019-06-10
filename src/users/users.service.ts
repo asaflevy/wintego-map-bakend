@@ -43,7 +43,7 @@ export class UsersService implements IUsersService {
         return await createdUser.save();
     }
 
-    async addLocation(locationDto: AddLocationDto): Promise<IUser> {
+    async addLocation(locationDto: AddLocationDto): Promise<ILocation> {
         const user = await this.findById(locationDto.userId);
         if (!user) {
             throw Error('User Not Fount');
@@ -56,7 +56,8 @@ export class UsersService implements IUsersService {
         } as ILocation);
         const {_id} = location as never;
         user.fkLocation.push(_id);
-        return await user.save();
+        await user.save();
+        return location;
     }
 
     async updateLocation(updateLocationDto: UpdateLocationDto): Promise<ILocation> {
