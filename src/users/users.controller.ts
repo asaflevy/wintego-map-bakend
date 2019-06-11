@@ -39,7 +39,7 @@ export class UsersController {
         return await this.userSrv.findAll();
     }
 
-    // @UseGuards(AuthGuard())
+    @UseGuards(AuthGuard())
     @Get('getUserData/:id')
     async getUserData(@Req() req, @Param('id') userId) {
         const user = req.user;
