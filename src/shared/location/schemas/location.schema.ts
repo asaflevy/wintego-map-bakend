@@ -43,7 +43,7 @@ export const LocationSchema = new mongoose.Schema({
     iconUrl: {
         type: String,
         required: false,
-        default: 'http://chittagongit.com/images/google-map-marker-icon/google-map-marker-icon-3.jpg',
+        default: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
     },
     created_date: {type: 'Date', default: Date.now, required: true},
 });

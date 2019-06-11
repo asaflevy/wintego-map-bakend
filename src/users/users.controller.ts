@@ -2,7 +2,7 @@ import {Body, Controller, Get, Param, Post, UseGuards, Req} from '@nestjs/common
 import {UsersService} from './users.service';
 import {AuthGuard} from '@nestjs/passport';
 import {AddLocationDto} from './dto/add-location.dto';
-import { AdminRoleGuard } from 'src/auth/roles/admin.role';
+import {AdminRoleGuard} from 'src/auth/roles/admin.role';
 import {CreateUserDto} from './dto/user.dto';
 import {ApiUseTags} from '@nestjs/swagger';
 import {UpdateLocationDto} from './dto/UpdateLocation.dto';
@@ -23,19 +23,23 @@ export class UsersController {
         return await this.userSrv.addLocation(addLocationDto);
     }
 
-    @Post('updateLocation')
+    @Post('updateOrInsertLocation')
     async updateLocation(@Body('updateLocationDto') updateLocationDto: UpdateLocationDto) {
-        return await this.userSrv.updateLocation(updateLocationDto);
+        if (updateLocationDto && updateLocationDto._id) {
+            return await this.userSrv.updateLocation(updateLocationDto);
+        } else {
+            return await this.userSrv.addLocation(updateLocationDto);
+        }
     }
 
-    @UseGuards(AdminRoleGuard)
-    //@UseGuards(AuthGuard())
+    //@UseGuards(AdminRoleGuard)
+    @UseGuards(AuthGuard())
     @Get('getAll')
     async getAll() {
         return await this.userSrv.findAll();
     }
 
-    @UseGuards(AuthGuard())
+    // @UseGuards(AuthGuard())
     @Get('getUserData/:id')
     async getUserData(@Req() req, @Param('id') userId) {
         const user = req.user;

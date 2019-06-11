@@ -25,7 +25,7 @@ export interface IUsersService {
 
     create(user: IUser): Promise<IUser>;
 
-    addLocation(locationDto: AddLocationDto): Promise<IUser>;
+    addLocation(locationDto: AddLocationDto): Promise<ILocation>;
 
     updateLocation(locationDto: UpdateLocationDto): Promise<ILocation>;
 

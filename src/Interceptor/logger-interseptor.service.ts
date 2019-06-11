@@ -10,8 +10,9 @@ export class LoggerInterceptorService {
     }
 
     public async getAll(): Promise<any> {
-        return await this.loggerModel.find({}).populate('fkLocation').exec();
+        return await this.loggerModel.find({}).populate('fkLocation').sort('-created_date').exec();
     }
+
 
     public async insert(loggerInterceptor: IloggerInterceptor): Promise<IloggerInterceptor> {
         const log = new this.loggerModel(loggerInterceptor);
