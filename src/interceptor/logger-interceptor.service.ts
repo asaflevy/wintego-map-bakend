@@ -9,8 +9,9 @@ import {tap} from 'rxjs/operators';
 
 import * as ipApi from 'ipapi.co';
 import {LocationService} from '../shared/location/location.service';
+import {LoggerInterceptorService} from './logger-interseptor.service';
 import {IloggerInterceptor} from './intefaces/logInterseptor.interface';
-import {LoggerInterceptorService} from './logger-Interseptor.service';
+
 
 @Injectable()
 export class LoggerInterceptor implements NestInterceptor {
