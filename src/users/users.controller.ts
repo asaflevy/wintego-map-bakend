@@ -2,10 +2,10 @@ import {Body, Controller, Get, Param, Post, UseGuards, Req} from '@nestjs/common
 import {UsersService} from './users.service';
 import {AuthGuard} from '@nestjs/passport';
 import {AddLocationDto} from './dto/add-location.dto';
-import {AdminRoleGuard} from 'src/auth/roles/admin.role';
 import {CreateUserDto} from './dto/user.dto';
 import {ApiUseTags} from '@nestjs/swagger';
 import {UpdateLocationDto} from './dto/UpdateLocation.dto';
+import {AdminRoleGuard} from '../auth/roles/admin.role';
 
 @ApiUseTags('users')
 @Controller('api/users')

@@ -1,4 +1,4 @@
-import {ExecutionContext, HttpException, HttpStatus, Injectable,} from '@nestjs/common';
+import {ExecutionContext, HttpException, HttpStatus, Injectable} from '@nestjs/common';
 import {AuthGuard} from '@nestjs/passport';
 import {UsersService} from '../../users/users.service';
 
