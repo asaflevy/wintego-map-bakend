@@ -2,7 +2,7 @@ import {Module} from '@nestjs/common';
 import {MongooseModule} from '@nestjs/mongoose';
 import {LoggingInterceptorSchema} from './schemas/loggerInterseptor.schema';
 import {LoggerInterceptorController} from './logger-interceptor.controller';
-import {LoggerInterceptorService} from './logger-Interseptor.service';
+import {LoggerInterceptorService} from './logger-interseptor.service';
 
 @Module({
     imports: [
