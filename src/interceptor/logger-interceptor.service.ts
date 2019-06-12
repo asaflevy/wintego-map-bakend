@@ -13,7 +13,7 @@ import {IloggerInterceptor} from './intefaces/logInterseptor.interface';
 import {LoggerInterceptorService} from './logger-Interseptor.service';
 
 @Injectable()
-export class LoggingInterceptor implements NestInterceptor {
+export class LoggerInterceptor implements NestInterceptor {
     constructor(private logSrv: LoggerInterceptorService, private locationSrv: LocationService, private readonly httpService: HttpService) {
     }
 

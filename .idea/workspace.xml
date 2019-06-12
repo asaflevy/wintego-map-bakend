@@ -8,7 +8,13 @@
     <list default="true" id="6c734886-c26b-44f5-8d84-06863a4f5371" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interceptor/interseptor.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interceptor/interseptor.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/intefaces/logInterseptor.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/intefaces/logInterseptor.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/interseptor.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/interseptor.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/logger-interceptor.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/logger-interceptor.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/logger-interseptor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/logger-interseptor.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/logging.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/logger-interceptor.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interceptor/schemas/loggerInterseptor.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/schemas/loggerInterseptor.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,16 +43,28 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interceptor/schemas/loggerInterseptor.schema.ts">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/schemas/loggerInterseptor.schema.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/logger-interceptor.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#130#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,19 +73,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/auth/roles/admin.role.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#88#0" expanded="true" />
-              </folding>
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -76,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/shared/eventType.model.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -90,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -103,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/users/users.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -112,10 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interceptor/interseptor.module.ts">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/interseptor.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="30">
+              <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -128,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/shared/errorHandler/intefaces/Ierror.interface.ts" />
-        <option value="$PROJECT_DIR$/src/shared/errorHandler/error.service.ts" />
-        <option value="$PROJECT_DIR$/src/shared/errorHandler/http-error.filter.ts" />
         <option value="$PROJECT_DIR$/src/shared/logging.interceptor.ts" />
         <option value="$PROJECT_DIR$/src/shared/Interceptor/schemas/error.schema.ts" />
         <option value="$PROJECT_DIR$/src/shared/Interceptor/intefaces/Ierror.interface.ts" />
@@ -179,12 +182,15 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Interceptor/interseptor.module.ts" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/interceptor/schemas/loggerInterseptor.schema.ts" />
+        <option value="$PROJECT_DIR$/src/interceptor/logging.interceptor.ts" />
+        <option value="$PROJECT_DIR$/src/interceptor/logger-interceptor.service.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
-    <option name="y" value="60" />
+    <option name="x" value="2090" />
+    <option name="y" value="137" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -199,6 +205,24 @@
             <path>
               <item name="wintego-map-bakend" type="b2602c69:ProjectViewProjectNode" />
               <item name="wintego-map-bakend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wintego-map-bakend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wintego-map-bakend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wintego-map-bakend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wintego-map-bakend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wintego-map-bakend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wintego-map-bakend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +244,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -273,10 +297,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68542000" />
+    <option name="totallyTimeSpent" value="68938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="60" width="1680" height="1027" extended-state="0" />
+    <frame x="2090" y="137" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25195903" />
@@ -401,14 +425,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.service.ts" />
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/intefaces/logInterseptor.interface.ts">
+    <entry file="file://$PROJECT_DIR$/src/interceptor/intefaces/logInterseptor.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/logger-interseptor.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/interceptor/logger-interseptor.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -425,22 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/logger-interceptor.controller.ts">
+    <entry file="file://$PROJECT_DIR$/src/interceptor/logger-interceptor.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/logging.interceptor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,7 +607,7 @@
     <entry file="file://$PROJECT_DIR$/src/auth/roles/admin.role.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#0#88#0" expanded="true" />
           </folding>
@@ -613,45 +627,31 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/schemas/loggerInterseptor.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/users/users.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interceptor/interseptor.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/eventType.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -664,8 +664,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/interseptor.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/schemas/loggerInterseptor.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/logger-interceptor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 
-export const LoggingInterceptorSchema = new mongoose.Schema({
+export const LoggergInterceptorSchema = new mongoose.Schema({
     message: {type: String, required: true},
     ip: {type: String, required: false},
     fkLocation: {type: mongoose.Schema.Types.ObjectId, ref: 'location', required: true},

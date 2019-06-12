@@ -5,8 +5,8 @@ import {UsersModule} from './users/users.module';
 import {AuthModule} from './auth/auth.module';
 import {APP_FILTER, APP_INTERCEPTOR} from '@nestjs/core';
 import {HttpErrorFilter} from './shared/errorHandler/http-error.filter';
-import {LoggingInterceptor} from './Interceptor/logging.interceptor';
-import {LoggerInterceptorModel} from './Interceptor/interseptor.module';
+import {LoggerInterceptor} from './interceptor/logger-interceptor.service';
+import {LoggerInterceptorModel} from './interceptor/interseptor.module';
 import {SharedModule} from './shared/shared.module';
 
 @Module({
@@ -26,7 +26,7 @@ import {SharedModule} from './shared/shared.module';
         },
         {
             provide: APP_INTERCEPTOR,
-            useClass: LoggingInterceptor,
+            useClass: LoggerInterceptor,
         },
     ],
 
