@@ -9,7 +9,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     constructor(private readonly authService: AuthService) {
         super({
             jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-            secretOrKey: "WINTEGO-SECRET_KEY_thisisthemosthardtoguesssecretekeyever",
+            secretOrKey: process.env.SECRET_KEY,
         });
     }
 

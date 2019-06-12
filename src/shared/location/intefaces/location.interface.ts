@@ -9,4 +9,6 @@ export interface ILocation extends Document {
     readonly region_code?: string;
     readonly info?: string;
     readonly type?: LocationType;
+    readonly iconUrl?: string;
+    readonly lable?: string;
 }

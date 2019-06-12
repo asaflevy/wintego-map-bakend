@@ -13,7 +13,6 @@ export class LoggerInterceptorService {
         return await this.loggerModel.find({}).populate('fkLocation').sort('-created_date').exec();
     }
 
-
     public async insert(loggerInterceptor: IloggerInterceptor): Promise<IloggerInterceptor> {
         const log = new this.loggerModel(loggerInterceptor);
         return await log.save();

@@ -32,9 +32,9 @@ export class UsersController {
         }
     }
 
-    //@UseGuards(AdminRoleGuard)
+    @UseGuards(AdminRoleGuard)
     @UseGuards(AuthGuard())
-    @Get('getAll')
+    @Get('getAllUsers')
     async getAll() {
         return await this.userSrv.findAll();
     }
@@ -42,7 +42,6 @@ export class UsersController {
     @UseGuards(AuthGuard())
     @Get('getUserData/:id')
     async getUserData(@Req() req, @Param('id') userId) {
-        const user = req.user;
         return await this.userSrv.findById(userId);
     }
 }

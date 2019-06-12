@@ -1,3 +1,4 @@
+import * as mongoose from 'mongoose';
 import {Model} from 'mongoose';
 import {forwardRef, Inject, Injectable, NotFoundException} from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
@@ -8,7 +9,6 @@ import {AddLocationDto} from './dto/add-location.dto';
 import {LocationService} from '../shared/location/location.service';
 import {ILocation} from '../shared/location/intefaces/location.interface';
 import {LocationType} from '../shared/eventType.model';
-import * as mongoose from 'mongoose';
 import {CreateUserDto} from './dto/user.dto';
 import {UpdateLocationDto} from './dto/UpdateLocation.dto';
 
@@ -53,6 +53,8 @@ export class UsersService implements IUsersService {
             longitude: locationDto.longitude,
             info: locationDto.info,
             type: LocationType.User,
+            lable: locationDto.lable,
+            iconUrl: locationDto.iconUrl,
         } as ILocation);
         const {_id} = location as never;
         user.fkLocation.push(_id);

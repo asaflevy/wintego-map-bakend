@@ -43,7 +43,7 @@ export const LocationSchema = new mongoose.Schema({
     iconUrl: {
         type: String,
         required: false,
-        default: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        default: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
     },
     created_date: {type: 'Date', default: Date.now, required: true},
 });

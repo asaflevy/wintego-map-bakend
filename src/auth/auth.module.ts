@@ -10,8 +10,9 @@ import {AuthController} from './auth.controller';
   imports: [
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
-      secretOrPrivateKey:  "WINTEGO-SECRET_KEY_thisisthemosthardtoguesssecretekeyever",
-      signOptions: {expiresIn: 3600},
+      secretOrPrivateKey:  process.env.SECRET_KEY,
+      signOptions: {expiresIn: 172800},
+
     }),
     UsersModule,
   ],
