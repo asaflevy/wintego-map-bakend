@@ -11,12 +11,17 @@ export class LocationService {
     }
 
     public async insert(location: ILocation): Promise<ILocation | null> {
-       const loc = new this.locationModel(location);
-       return await loc.save();
+        const loc = new this.locationModel(location);
+        return await loc.save();
     }
 
     public async updateLocation(location: UpdateLocationDto): Promise<ILocation | null> {
-        const loc =  await this.locationModel.findByIdAndUpdate(location._id, location).exec();
+        const loc = await this.locationModel.findByIdAndUpdate(location._id, location).exec();
+        return loc;
+    }
+
+    public async delete(locationId: string): Promise<ILocation | null> {
+        const loc = await this.locationModel.findByIdAndDelete(locationId).exec();
         return loc;
     }
 

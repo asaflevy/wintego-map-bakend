@@ -31,7 +31,8 @@ export interface IUsersService {
 
     update(id: number, newValue: IUser): Promise<IUser | null>;
 
-    delete(id: number): Promise<string>;
+    deleteLocation(locationId: string): Promise<ILocation>;
+
 }
 
 export enum UserType {
