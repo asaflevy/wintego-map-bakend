@@ -1,16 +1,16 @@
 import {Module} from '@nestjs/common';
 import {MongooseModule} from '@nestjs/mongoose';
-import {LoggergInterceptorSchema} from './schemas/loggerInterseptor.schema';
+import {LoggerInterceptorSchema} from './schemas/loggerInterseptor.schema';
 import {LoggerInterceptorController} from './logger-interceptor.controller';
-import {LoggerInterceptorService} from './logger-interseptor.service';
+import {LoggerService} from './logger.service';
 
 @Module({
     imports: [
-        MongooseModule.forFeature([{name: 'LogInterceptor', schema: LoggergInterceptorSchema}]),
+        MongooseModule.forFeature([{name: 'LogInterceptor', schema: LoggerInterceptorSchema}]),
     ],
     controllers: [LoggerInterceptorController],
-    providers: [LoggerInterceptorService],
-    exports: [LoggerInterceptorService],
+    providers: [LoggerService],
+    exports: [LoggerService],
 })
 export class LoggerInterceptorModel {
 }

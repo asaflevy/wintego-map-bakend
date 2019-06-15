@@ -31,7 +31,7 @@ export interface IUsersService {
 
     update(id: number, newValue: IUser): Promise<IUser | null>;
 
-    deleteLocation(locationId: string): Promise<ILocation>;
+    deleteLocation(userId: string, locationId: string): Promise<ILocation>;
 
 }
 

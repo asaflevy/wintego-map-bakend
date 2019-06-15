@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, Param, Post, Req, UseGuards} from '@nestjs/common';
+import {Body, Controller, Delete, Get, Param, Post, Query, Req, UseGuards} from '@nestjs/common';
 import {UsersService} from './users.service';
 import {AuthGuard} from '@nestjs/passport';
 import {AddLocationDto} from './dto/add-location.dto';
@@ -46,9 +46,9 @@ export class UsersController {
     }
 
     @UseGuards(AuthGuard())
-    @Delete('deleteLocation/:id')
-    async deleteLocation(@Req() req, @Param('id') locationId) {
-        return await this.userSrv.deleteLocation(locationId);
+    @Delete('deleteLocation')
+    async deleteLocation(@Req() req, @Query('userId') userId, @Query('locationId') locationId) {
+        return await this.userSrv.deleteLocation(userId, locationId);
     }
 
 }

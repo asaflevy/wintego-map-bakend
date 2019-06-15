@@ -25,4 +25,8 @@ export class LocationService {
         return loc;
     }
 
+    public async findById(locationId: string): Promise<ILocation | null> {
+        return await this.locationModel.findById(locationId).exec();
+    }
+
 }

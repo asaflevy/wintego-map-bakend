@@ -4,7 +4,7 @@ import {InjectModel} from '@nestjs/mongoose';
 import {IloggerInterceptor} from './intefaces/logInterseptor.interface';
 
 @Injectable()
-export class LoggerInterceptorService {
+export class LoggerService {
 
     constructor(@InjectModel('LogInterceptor') private readonly loggerModel: Model<IloggerInterceptor>) {
     }

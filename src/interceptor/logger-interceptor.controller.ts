@@ -1,16 +1,16 @@
 import {Body, Controller, Get} from '@nestjs/common';
 
 import {ApiUseTags} from '@nestjs/swagger';
-import {LoggerInterceptorService} from './logger-interseptor.service';
+import {LoggerService} from './logger.service';
 
 @ApiUseTags('logger')
 @Controller('api/logger')
 export class LoggerInterceptorController {
-    constructor(private loggerInterceptorSrv: LoggerInterceptorService) {
+    constructor(private loggerService: LoggerService) {
     }
 
     @Get('getAll')
     async getAll() {
-        return await this.loggerInterceptorSrv.getAll();
+        return await this.loggerService.getAll();
     }
 }

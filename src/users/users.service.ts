@@ -87,8 +87,15 @@ export class UsersService implements IUsersService {
         return await this.userModel.findOne(options).exec();
     }
 
-    async deleteLocation(locationId: string): Promise<ILocation> {
-        return await this.locationService.delete(locationId);
+    async deleteLocation(userId: string, locationId: string): Promise<ILocation> {
+        await this.userModel.update(
+            {fkLocation: locationId},
+            {$pull: {fkLocation: locationId}},
+            {multi: true},
+        );
+        const location  = await this.locationService.findById(locationId);
+        await this.locationService.delete(locationId);
+        return location;
     }
 
     async update(id: number, newValue: IUser): Promise<IUser> {

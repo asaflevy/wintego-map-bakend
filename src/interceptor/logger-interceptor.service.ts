@@ -1,21 +1,13 @@
-import {
-    Injectable,
-    NestInterceptor,
-    ExecutionContext,
-    Logger, CallHandler, HttpService,
-} from '@nestjs/common';
+import {CallHandler, ExecutionContext, HttpService, Injectable, Logger, NestInterceptor} from '@nestjs/common';
 import {Observable} from 'rxjs';
 import {tap} from 'rxjs/operators';
-
-import * as ipApi from 'ipapi.co';
 import {LocationService} from '../shared/location/location.service';
-import {LoggerInterceptorService} from './logger-interseptor.service';
 import {IloggerInterceptor} from './intefaces/logInterseptor.interface';
-
+import {LoggerService} from './logger.service';
 
 @Injectable()
 export class LoggerInterceptor implements NestInterceptor {
-    constructor(private logSrv: LoggerInterceptorService, private locationSrv: LocationService, private readonly httpService: HttpService) {
+    constructor(private logSrv: LoggerService, private locationSrv: LocationService, private readonly httpService: HttpService) {
     }
 
     intercept(context: ExecutionContext, call$: CallHandler): Observable<any> {
@@ -31,8 +23,13 @@ export class LoggerInterceptor implements NestInterceptor {
                         const locationResult = await this.httpService.get(`https://ipapi.co/json/`).toPromise();
                         const locationDoc = await this.locationSrv.insert(locationResult.data);
                         const logInter = `Interceptor ${method} ${url} ${Date.now() - now}ms`;
-                        this.logSrv.insert({message: logInter, ip, fkLocation: locationDoc._id} as IloggerInterceptor);
                         Logger.log(logInter, context.getClass().name);
+                        await this.logSrv.insert({
+                            message: logInter,
+                            userAgent: this.getUserAgent(req),
+                            ip,
+                            fkLocation: locationDoc._id,
+                        } as IloggerInterceptor);
 
                     },
                 ),
@@ -42,5 +39,9 @@ export class LoggerInterceptor implements NestInterceptor {
 
     private getClientIp(req) {
         return req.headers['X-Forwarded-For'] || req.connection.remoteAddress;
+    }
+
+    private getUserAgent(req) {
+        return req.headers['user-agent'];
     }
 }
