@@ -30,7 +30,7 @@
     "@nestjs/platform-express": "^6.0.0",
     "@nestjs/swagger": "^3.0.2",
     "@types/passport-local-mongoose": "^4.0.12",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "dotenv": "^8.0.0",
     "ipapi.co": "^0.2.3",
     "jsonwebtoken": "^8.5.1",
